@@ -1,0 +1,9 @@
+
+
+/* Telefone */
+input[type="tel"]:valid {
+    border: 2px solid green;
+}
+input[type="tel"]:invalid {
+    border: 2px solid red;
+}
