@@ -128,14 +128,10 @@ form h2 {
 
 .input {
     width: 98%;
-    padding: 1.7rem;
+    padding: 1.9rem;
     margin: 1rem auto;
     border-radius: 1rem;
     border: 1px solid var(--txt-blue);
-}
-
-.input:invalid {
-    border: 1px solid rgb(117, 3, 3);
 }
 
 .adv img {
@@ -163,4 +159,17 @@ form h2 {
     color: #000000;
     font-size: 1.8rem;
     margin-bottom: 1rem;
+}
+
+.marcas {
+    margin: 1.3rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex img {
+    padding-right: .5rem ;
 }
