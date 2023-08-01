@@ -7,12 +7,14 @@
     --txt-blue: #4da4b9;
     --btn-form: #20AD96;
     --black-txt: #292828;
+    --bg-grey: #e9e9e9;
 
     /* font-size */
     --small-font: 1.4rem;
     --medium-font: 1.8rem;
     --mid-font: 2rem;
-    --large-font: 2.7rem
+    --large-font: 2.7rem;
+    --big-font: 6rem;
 }
 
 * {
@@ -172,4 +174,71 @@ form h2 {
 
 .flex img {
     padding-right: .5rem ;
+}
+
+.bg-grey {
+    background-color: var(--bg-grey);
+    padding: 10rem 1rem 6rem 1rem;
+}
+
+.four-step article {
+    background-color: white;
+}
+
+.four-step article, .anos article {
+    border-radius: 1rem;
+    padding: 1.4rem;
+    margin: .3rem .4rem 3rem ;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.062);
+}
+
+.four-step .large-number {
+    font-size: 5.2rem;
+    color: var(--bg-grey);
+    text-align: right;
+}
+
+.logos {
+    margin-top: -3rem;
+    width: 5.6rem;
+}
+
+.four-step .medium-text {
+    padding: 2rem auto;
+}
+
+.four-step .small-text {
+    padding: 3rem 1rem;
+}
+
+
+.anos article {
+    background-color: #0A132E;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(245, 245, 245);
+}
+
+.anos article:first-child {
+    background-image: url('assets/equipe.jpg');
+}
+
+.anos article:last-child {
+    background-image: url('assets/paper.jpg');
+}
+
+.anos article .big-txt {
+    font-size: var(--big-font);
+    padding: 2rem;
+}
+
+.anos article .mid-text, 
+.anos article .small-text {
+    padding-bottom: 2rem;
+}
+
+.anos article .small-text {
+    line-height: 2.5rem;
+    font-weight: 300;
 }
