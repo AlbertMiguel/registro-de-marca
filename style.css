@@ -1,9 +1,139 @@
+:root {
+    font-size: 62.5%;
+    --font:'Roboto', sans-serif;
+    --bg-color: hsl(229, 46%, 29%);
+    --span-color: hsl(200, 100%, 61%);
+    --txt-color-alt: #3542bb;
+    --txt-blue: #4da4b9;
+    --btn-form: #20AD96;
+    --black-txt: #292828;
 
-
-/* Telefone */
-input[type="tel"]:valid {
-    border: 2px solid green;
+    /* font-size */
+    --small-font: 1.4rem;
+    --medium-font: 1.8rem;
+    --mid-font: 2rem;
+    --large-font: 2.7rem
 }
-input[type="tel"]:invalid {
-    border: 2px solid red;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: var(--font);
+}
+
+.top {
+    background: var(--bg-color);
+    color: white;
+}
+
+.logo {
+    padding-top: 8rem;
+}
+
+.title-prin {
+    font-size: 3.2rem;
+    margin: 1rem;
+    padding: 0 1rem;
+}
+
+.title-prin span {
+    color: var(--span-color);
+}
+
+.zap {
+    background-image: linear-gradient(45deg, #3A7E69 0%, #06A0A2 100%);
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.small-text {
+    font-size: var(--small-font);
+}
+
+.txt-center {
+    text-align: center;
+}
+
+.medium-text {
+    font-size: var(--medium-font);
+    padding: 1rem;
+}
+
+.mid-text {
+    font-size: var(--mid-font)
+}
+
+.large-text {
+    font-size: var(--large-font)
+}
+
+.txt-blue {
+    color: var(--txt-blue);
+}
+
+.black-text {
+    color: var(--black-txt);
+}
+
+button {
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 4.5rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    margin: 1rem auto;
+}
+
+.text-roxo {
+    color: var(--txt-color-alt)
+}
+
+button img {
+    width: 2.1rem;
+    margin-right:1rem ;
+}
+
+.btn-form {
+    background: var(--btn-form);
+}
+
+.border {
+    border: 1px solid var(--txt-blue);
+}
+
+form {
+    background-color: white;
+    margin: 1.1rem;
+    border-radius: 1rem;
+    padding: 1.4rem;
+}
+
+form h2 {
+    margin: 1.5rem;
+    font-size: 2.7rem;
+}
+
+.input {
+    width: 98%;
+    padding: 1.7rem;
+    margin: 1rem auto;
+    border-radius: 1rem;
+    border: 1px solid var(--txt-blue);
+}
+
+.input:invalid {
+    border: 1px solid rgb(117, 3, 3);
 }

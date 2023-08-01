@@ -10,112 +10,158 @@
     <title>Online Design</title>
 </head>
 <body>
-    <section>
+    <section class="top">
         <article>
-            <img src="assets/logo.png" alt="Logo">
-            <p>Registre sua marca com um advogado especialista!</p>
-            <h1>Todo processo é <span>100% digital</span> e seu pedido sai em <span>menos de 24horas!</span></h1>
-            <p>Porque marca protegida é marca registrada!</p>
-            <button class="zap"><img src="#" alt="Logo do WhatsApp">Chamar no WhatsApp</button>
-            <button class="ler-mais">Ler mais sobre</button>
+            <div class="center">
+                <img src="assets/logo.png" alt="Logo" class="logo">
+            </div>
+            <p class="txt-center medium-text">
+                <strong>
+                    Registre sua marca com um advogado especialista!
+                </strong>
+            </p>
+            <h1 class="title-prin txt-center">
+                Todo processo é <span>100% digital</span> e seu pedido sai em <span>menos de 24horas!</span>
+            </h1>
+            <p class="small-text txt-center">
+                Porque marca protegida é marca registrada!
+            </p>
+            <div class="center">
+                <button class="zap">
+                    <img src="./assets/zap.svg" alt="Logo do WhatsApp">
+                    Chamar no WhatsApp
+                </button>
+            </div>
+            <div class="center">
+                <button class="text-roxo border">
+                    <img src="assets/info.svg" alt="I">
+                    <strong>Ler mais sobre</strong>
+                </button>
+            </div>
         </article>
         <article>
             <form>
-                <p>O primeiro passo é o mais importante!</p>
-                <h2>Solicitar Análise Gratuita:</h2>
-                <input type="text" placeholder="Seu nome" required>
-                <input type="tel" placeholder="Telefone/WhatsApp com DDD" required minlength="9" maxlength="14" pattern="[0-9]+$">
-                <input type="text" placeholder="Qual nome de marca deseja registrar?" required>
-                <label for="opc">O que você deseja registrar?</label>
-                <select name="select" id="opc" required>
-                    <option value="val1" readonly disabled>Selecione uma opção</option>
-                    <option value="val2">Registrar apenas nome</option>
-                    <option value="val3">Registrar logo e nome</option>
-                </select>
-                <input type="text" placeholder="Qual nicho / área de atuação da marca?" required>
-                <button>Enviar</button>
+                <p class="txt-center small-text txt-blue">
+                    <strong>O primeiro passo é o mais importante!</strong>
+                </p>
+                <h2 class="txt-center black-text ">
+                    Solicitar Análise Gratuita:
+                </h2>
+                <div class="center">
+                    <input type="text" placeholder="Seu nome" required class="input">
+                </div>
+                <div class="center">
+                    <input type="tel" placeholder="Telefone/WhatsApp com DDD" required minlength="9" maxlength="14" pattern="[0-9]+$" class="input">
+                </div>
+                <div class="center">
+                    <input type="text" placeholder="Qual nome de marca deseja registrar?" required class="input">
+                </div>
+                <label for="opc" class="small-text">
+                    O que você deseja registrar?
+                </label>
+                <div class="center">
+                    <select name="select" id="opc" required class="input">
+                        <option value="val1" readonly disabled>
+                            Selecione uma opção<
+                            /option>
+                        <option value="val2">
+                            Registrar apenas nome
+                        </option>
+                        <option value="val3">
+                            Registrar logo e nome
+                        </option>
+                    </select>
+                </div>
+                <div class="center">
+                    <input type="text" placeholder="Qual nicho / área de atuação da marca?" required class="input">
+                </div>
+                <button class="btn-form">
+                    Enviar
+                </button>
             </form>
+            <br>
+            <br>
         </article>
     </section>
     <section>
         <div>
             <img src="#" alt="Foto da da pessoa">
+            <p class="txt-center mid-text text-roxo"><strong>Dr.Abner Luiz Fanti - Advogado Especialista</strong></p>
         </div>
-        <p>Dr.Abner Luiz Fanti - Advogado Especialista</p>
-        <h1>Projeto sua marca contra plágios, golpes e fraudes!</h1>
+        <h1 class="title-prin txt-center black-text">Projeto sua marca contra plágios, golpes e fraudes!</h1>
         <article>
-            <h3><img src="#" alt="seta"> Sem registro, sem proteção</h3>
-            <p>Não registrar uma marca no INPI, significa deixa-la vulnerável para golpes utilizando seu nome/logo.</p>
+            <p class="mid-text black-text"><img src="#" alt="seta" > Sem registro, sem proteção</p>
+            <p class="small-text">Não registrar uma marca no INPI, significa deixa-la vulnerável para golpes utilizando seu nome/logo.</p>
         </article>
         <article>
-            <h3><img src="#" alt="seta">Direito de exclusividade do uso da marca</h3>
-            <p>Perante a lei, somente o registro devidamente feito no INPI, garante a exclusividade do uso de uma marca!
+            <p class="mid-text black-text"><img src="#" alt="seta">Direito de exclusividade do uso da marca</p>
+            <p class="small-text">Perante a lei, somente o registro devidamente feito no INPI, garante a exclusividade do uso de uma marca!
             </p>
         </article>
         <article>
-            <h3><img src="#" alt="seta"> Transmita mais segurança</h3>
-            <p>Marcas registradas se tornam propriedades e tem muito mais credibilidade no mercado.
+            <p class="mid-text black-text"><img src="#" alt="seta"> Transmita mais segurança</p>
+            <p class="small-text">Marcas registradas se tornam propriedades e tem muito mais credibilidade no mercado.
             </p>
         </article>
         <article>
-            <h3><img src="#" alt="seta">O registro de marca é válido por 10 anos</h3>
-            <p>Pague somente uma vez e sua marca ficará resguardada durante 10 anos, garantindo a sua segurança!
+            <p class="mid-text black-text"><img src="#" alt="seta">O registro de marca é válido por 10 anos</p>
+            <p class="small-text">Pague somente uma vez e sua marca ficará resguardada durante 10 anos, garantindo a sua segurança!
             </p>
         </article>
-        <button class="zap"><img src="#" alt="Logo do WhatsApp">Chamar no WhatsApp</button>
-        <button><img src="#" alt="escudo"> Solicitar Análise Gratuita</button>
+        <button class="zap"><img src="./assets/zap.svg" alt="Logo do WhatsApp">Chamar no WhatsApp</button>
+        <button class="border"><img src="#" alt="escudo"> <strong class="text-roxo">Solicitar Análise Gratuita</strong></button>
     </section>
     <section>
-        <p>Registrar sua marca é muito fácil</p>
-        <h1>Apenas 4 passos simples</h1>
+        <p class="txt-center mid-text">Registrar sua marca é muito fácil</p>
+        <h1 class="title-prin txt-center black-text">Apenas 4 passos simples</h1>
         <article>
             <p>01</p>
             <img src="#" alt="Atendente">
-            <p>Entre em Contato</p>
-            <p>O primeiro passo é o mais importante, chame no WhatsApp ou preencha o formulário.
+            <p class="medium-text black-text">Entre em Contato</p>
+            <p class="small-text black-text">O primeiro passo é o mais importante, chame no WhatsApp ou preencha o formulário.
             </p>
         </article>
         <article>
             <p>02</p>
             <img src="#" alt="Papel pesquisa">
-            <p>Pesquisa de Viabilidade</p>
-            <p>Através de metodologias especializadas, faremos uma pesquisa minuciosa para sabermos a disponibilidade.
+            <p class="medium-text black-text">Pesquisa de Viabilidade</p>
+            <p class="small-text black-text">Através de metodologias especializadas, faremos uma pesquisa minuciosa para sabermos a disponibilidade.
             </p>
         </article>
         <article>
             <p>03</p>
             <img src="#" alt="Ficha">
-            <p>Pedido e Acompanhamento</p>
-            <p>Estando tudo certo com sua marca, em menos de 24h efetuaremos o pedido de registro junto ao INPI.
+            <p class="medium-text black-text">Pedido e Acompanhamento</p>
+            <p class="small-text black-text">Estando tudo certo com sua marca, em menos de 24h efetuaremos o pedido de registro junto ao INPI.
             </p>
         </article>
         <article>
             <p>04</p>
             <img src="#" alt="R">
-            <p>Sua marca registrada!®</p>
-            <p>A partir daqui, sua marca estará protegida e pronta para alcançar grandes patamares no mercado onde atua!
+            <p class="medium-text black-text">Sua marca registrada!®</p>
+            <p class="small-text black-text">A partir daqui, sua marca estará protegida e pronta para alcançar grandes patamares no mercado onde atua!
             </p>
         </article>
     </section>
     <section>
         <article>
-            <h1>10+</h1>
-            <p>Anos de Atuação</p>
-            <p>Conte com quem entende do assunto! Nós somos especialistas em registro de marcas e patentes!
+            <h1 class="txt-center">10+</h1>
+            <p class="txt-center mid-text">Anos de Atuação</p>
+            <p class="txt-center small-text">Conte com quem entende do assunto! Nós somos especialistas em registro de marcas e patentes!
             </p>
         </article>
         <article>
-            <h1>20
+            <h1 class="txt-center">20
                 % Off</h1>
-            <p>Somente hoje</p>
-            <p>Basta chamar no WhatsApp ou preencher o formulário desta página!
+            <p class="txt-center mid-text">Somente hoje</p>
+            <p class="txt-center small-text">Basta chamar no WhatsApp ou preencher o formulário desta página!
             </p>
         </article>
     </section>
     <section>
-        <p>DR. ABNER LUIZ FANTI</p>
-        <p>É formado pela Universidade Presbiteriana Mackenzie, atuando a mais de 10 anos para importantes empresas do mercado nacional!</p>
-        <button class="zap"><img src="#" alt="Logo do WhatsApp">Chamar no WhatsApp</button>
+        <p class="txt-center text-roxo">DR. ABNER LUIZ FANTI</p>
+        <p class="txt-center small-text black-text">É formado pela Universidade Presbiteriana Mackenzie, atuando a mais de 10 anos para importantes empresas do mercado nacional!</p>
+        <button class="zap"><img src="./assets/zap.svg" alt="Logo do WhatsApp">Chamar no WhatsApp</button>
         <img src="#" alt="Pessoa">
     </section>
 
