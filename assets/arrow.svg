@@ -1,7 +1,7 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
-<svg fill="#3542bb" width="800px" height="800px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" transform="rotate(0)">
+<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="SVGRepo_bgCarrier" stroke-width="0"/>
-<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="0.144"/>
-<g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" d="M13.5857864,10 L9.29289322,5.70710678 L10.7071068,4.29289322 L17.4142136,11 L10.7071068,17.7071068 L9.29289322,16.2928932 L13.5857864,12 L13,12 C6.25355783,12 4,14.3437001 4,21 L2,21 C2,13.2562999 5.13105756,10 13,10 L13.5857864,10 Z M19.5857864,11 L14.2928932,5.70710678 L15.7071068,4.29289322 L22.4142136,11 L15.7071068,17.7071068 L14.2928932,16.2928932 L19.5857864,11 Z"/> </g>
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="SVGRepo_iconCarrier"> <path d="M6 12H18M18 12L13 7M18 12L13 17" stroke="#3542bb" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/> </g>
 </svg>
