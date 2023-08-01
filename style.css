@@ -189,7 +189,7 @@ form h2 {
     border-radius: 1rem;
     padding: 1.4rem;
     margin: .3rem .4rem 3rem ;
-    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.062);
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.178);
 }
 
 .four-step .large-number {
@@ -241,4 +241,36 @@ form h2 {
 .anos article .small-text {
     line-height: 2.5rem;
     font-weight: 300;
+}
+
+.bloco {
+    background-color: white;
+    padding: 6rem 1.2rem 6rem 1.2rem;
+}
+
+.bloco section {
+    background-color: var(--bg-grey);
+    padding: 8rem 2rem 0 2rem;
+    border-radius: .4rem;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.178);
+}
+
+.info p, .info button {
+    margin-bottom: 3rem;
+}
+
+
+.fala {
+    display: flex;
+}
+
+.fala img {
+    width: 10rem
+}
+
+.falador {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
