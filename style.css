@@ -137,3 +137,30 @@ form h2 {
 .input:invalid {
     border: 1px solid rgb(117, 3, 3);
 }
+
+.adv img {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+.marca img {
+    width: 2.1rem;
+}
+
+.marca h1 {
+    margin-bottom: 3rem;
+}
+
+.marca .small-text {
+    padding-left: 2.5rem ;
+    color: #2c2b2b;
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem ;
+    font-weight: 300;
+}
+
+.marca .mid-text {
+    color: #000000;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
