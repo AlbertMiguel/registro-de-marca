@@ -13,7 +13,7 @@
     --bg-color: hsl(229, 46%, 29%);
     --span-color: #f8be2f;
     --txt-color-alt: #f2525a;
-    --txt-blue: #af8928;
+    --txt-blue: #f2525a;
     --btn-form: #20AD96;
     --black-txt: #292828;
     --bg-grey: #e9e9e9;
@@ -38,10 +38,14 @@ body {
     font-family: var(--font);
 }
 
+a {
+    text-decoration: none;
+}
+
 .butaobg {
     background-image: linear-gradient(45deg,#f8be2f, #ec2F4B);
     color: white;
-        width:19rem;
+    width:19rem;
     height: 5rem;
 }
 
@@ -136,6 +140,7 @@ button {
     border: none;
     cursor: pointer;
     margin: 1rem;
+    width: 90vw;
 }
 
 .text-roxo {
@@ -301,13 +306,12 @@ form h2 {
     line-height: 2.5rem;
 }
 
-
 .fala {
     display: flex;
 }
 
 .fala img {
-    width: 20rem
+    width: 10rem
 }
 
 .falador {
@@ -326,6 +330,11 @@ form h2 {
 }
 
 @media (min-width: 780px) {
+    button {
+        width:19rem;
+        height: 5rem;
+    }
+
     .top {
         height: 100vh;
         display: flex;
