@@ -46,48 +46,37 @@
             </div>
         </article>
         <article>
-            <form>
+            <form method="POST" action="https://formsubmit.co/miguelalbert38@gmail.com">
                 <p class="txt-center small-text txt-blue">
                     <strong>
                         O primeiro passo é o mais importante!
                     </strong>
                 </p>
-
                 <h2 class="txt-center black-text ">
                     Solicitar Análise Gratuita:
                 </h2>
-                
-                    <input type="text" placeholder="Seu nome" required class="input">
-        
-                    <input type="tel" placeholder="Telefone/WhatsApp com DDD" required minlength="9" maxlength="14" pattern="[0-9]+$" class="input">
-        
-                
-                    <input type="text" placeholder="Qual nome de marca deseja registrar?" required class="input">
-        
+                    <input type="text" placeholder="Seu nome" required class="input" name="nome">
+                    <input type="tel" placeholder="Telefone/WhatsApp com DDD" required minlength="9" maxlength="14" pattern="[0-9]+$" class="input" name="terefone">
+                    <input type="text" placeholder="Qual nome de marca deseja registrar?" required class="input" name="nome-da-marca">
                 <label for="opc" class="small-text">
                     O que você deseja registrar?
                 </label>
-                
-                    <select name="select" id="opc" required class="input">
+                    <select name="o-que-deseja-registrar" id="opc" required class="input">
                         <option value="val1">
                             Selecione uma opção
                         </option>
-                        <option value="val2">
+                        <option value="Registarr-apenas-nome">
                             Registrar apenas nome
                         </option>
-                        <option value="val3">
+                        <option value="Registrar-logo-e-nome">
                             Registrar logo e nome
                         </option>
                     </select>
-        
-                
-                    <input type="text" placeholder="Qual nicho / área de atuação da marca?" required class="input">
-        
-                <a href="https://api.whatsapp.com/send/?phone=%2B5511914532291&text=Ol%C3%A1%21+Vim+pela+p%C3%A1gina+de+contato+da+Online+Design&type=phone_number&app_absent=0">
-                    <button class="btn-form butaobg">
+                    <input type="text" placeholder="Qual nicho / área de atuação da marca?" required class="input" name="area-de-atuação">
+                    <input type="hidden" name="_captcha" value="false">
+                    <button class="btn-form butaobg" name="botão de envio">
                         Enviar
                     </button>
-                </a>
             </form>
             <br>
             <br>
