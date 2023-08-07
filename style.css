@@ -216,10 +216,14 @@ form h2 {
     /* justify-content: ; */
 }
 
+.seta {
+    margin-right: 1rem;
+}
+
 .flex img {
     /* padding-right: .5rem ; */
-    width: 3.5rem;
-    height: 3.5rem;
+    /* width: 3.5rem;
+    height: 3.5rem; */
 }
 
 .flex-marca .small-text {
