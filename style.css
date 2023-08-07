@@ -217,10 +217,15 @@ form h2 {
 }
 
 .flex img {
-    padding-right: .5rem ;
-    width: 3rem;
-    height: 3rem;
+    /* padding-right: .5rem ; */
+    width: 3.5rem;
+    height: 3.5rem;
 }
+
+.flex-marca .small-text {
+    margin-left: 1.5rem;
+}
+
 
 .bg-grey {
     background-color: var(--bg-grey);
